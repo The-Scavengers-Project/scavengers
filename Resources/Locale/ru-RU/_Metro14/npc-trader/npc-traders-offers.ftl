@@ -1,0 +1,9 @@
+npc-trader-offer-survival-kit = Набор выживания
+npc-trader-offer-hemostatic-kit = Стоп кровь!
+npc-trader-offer-30rifleammo-kit = Немного .30
+npc-trader-offer-flashlight-kit = Фонарик
+NPC_Trader_Base_Start = Набор новичка
+NPC_Trader_Base_middle = Стандартный набор
+NPC_Trader_Base_high = Разведовательный набор 
+NPC_Trader_Base_tail = Хвост паука
+NPC_Trader_Base_Foot = Нога носача
