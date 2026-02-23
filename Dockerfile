@@ -7,7 +7,6 @@ WORKDIR /src
 RUN apt-get update && apt-get install -y --no-install-recommends \
     unzip \
     ca-certificates \
-    curl \
     && rm -rf /var/lib/apt/lists/*
 
 
