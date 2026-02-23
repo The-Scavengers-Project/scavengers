@@ -7,7 +7,6 @@ WORKDIR /src
 RUN apt-get update && apt-get install -y --no-install-recommends \
     unzip \
     ca-certificates \
-    curl \
     && rm -rf /var/lib/apt/lists/*
 
 
@@ -18,7 +17,7 @@ RUN unzip /tmp/server.zip -d server/ \
 RUN chmod +x /src/server/Robust.Server
 
 
-FROM mcr.microsoft.com/dotnet/runtime:9.0 AS final
+FROM mcr.microsoft.com/dotnet/runtime:10.0 AS final
 WORKDIR /app
 
 ARG VERSION=dev
